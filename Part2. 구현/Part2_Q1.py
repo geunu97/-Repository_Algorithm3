@@ -1,6 +1,6 @@
 #Part2. 구현
 #문제 1. (1,1) 에서 시작해서 입력받은(L,R,U,D)중에서 받은 대로 1칸씩 이동해서 마지막 인덱스 출력하기
-
+  
 n = int(input())
 list_a=list(input().split())
   
