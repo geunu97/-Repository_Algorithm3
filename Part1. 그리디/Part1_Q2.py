@@ -1,6 +1,6 @@
 #Part1. 그리디
 #문제 2. 각 행마다 가장 작은 수를 찾고 그 중에서 가장 큰 수 찾기
- 
+   
 n,m = map(int,input().split())
 
 list_a=[]
