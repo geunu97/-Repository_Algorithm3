@@ -17,3 +17,5 @@ def re(n,count):
     return re(n,count)
 
 print(re(n,0))
+
+#K가 2이상이기만 하면 K로 나누는 것이 1을 빼는 것보다 항상 빠르게 N의 값을 줄일 수 있다.
