@@ -21,7 +21,7 @@ for plan in plans:
       nx = x + dx[i]
       ny = y + dy[i]    #이동 좌표 구하기
   
-  #공간 밖에 있는 경우 무시하기 
+  #공간 밖에 있는 경우(4가지) 무시하기 
   if nx < 1 or ny < 1 or nx > n or ny > n:
     continue
 
@@ -30,3 +30,11 @@ for plan in plans:
   y = ny
 
 print(x,y)
+
+#Point 
+#시작점 설정 x,y
+#dx,dy 설정
+#nx,ny 설정 (미리 가보기)
+#nx = x + dx[i] / ny = y + dy[i] 형태 
+#공간 벗어나는 경우(4가지) 조건 설정
+#x,y에 nx,ny 값 넣기 (진짜 이동)
