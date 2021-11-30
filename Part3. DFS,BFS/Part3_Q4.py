@@ -33,7 +33,6 @@ def DFS(x2,y2):   #DFS()에서 상하좌우 문제니깐 (시작점, dx,dy , nx,
                 list_new[nx][ny] = 2
                 DFS(nx,ny)
 
-
 max_value = -987654321
 for list_0 in combinations_:
     list_new = [[0]*m for _ in range(n)]  #매번 새로 하나 더 만들기
@@ -58,17 +57,7 @@ for list_0 in combinations_:
 print(max_value)
 
 
-
-
 #Point
-#조합문제 + DFS 문제
+#조합 & DFS 
 #전체 다 다시 천천히 보기(모두 중요!)
-
-
-
-
-#함수 안에서 밖에 있는 변수또는리스트에 값을 가져와서 쓰는 것은 상관없지만 값을 변경하려고 할 때는 global 써야함!!
-
-
-
 
